@@ -1,0 +1,108 @@
+blankon-keyring (2013.09.12) suroboyo; urgency=low
+
+  * Added active-keys/blankon-archive-keyring.gpg 
+  * Refresh debian/rules
+  * Upstream remove 'apt-key update' from APT. And now blankon-keyring move to
+    directory /etc/apt/trusted.gpg.d/ for sync with apt.
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Thu, 12 Sep 2013 22:44:20 +0700
+
+blankon-keyring (2011.11.02) rote; urgency=low
+
+  * Import from pattimura to rote
+    - No Changes
+
+ -- Mas Supriyadi <pri_yess@yahoo.com>  Sun, 02 Oct 2011 19:17:16 +0700
+
+blankon-keyring (2011.06.19) pattimura; urgency=low
+
+  * debian/rules
+    - Drop ubuntu-keyring for deppends 
+
+ -- aftian <aftian@di.blankon.in>  Sun, 19 Jun 2011 16:36:09 +0700
+
+blankon-keyring (2011.01.18) pattimura; urgency=low
+
+  * Impor to Pattimura.
+  * sync postinst from natty
+
+ -- aftian <aftian@aftian-desktop>  Tue, 18 Jan 2011 08:42:37 +0700
+
+blankon-keyring (2009.02.19) nanggar; urgency=low
+
+  * Sync ulang dengan paket ubuntu-keyring.
+  * Tambah kering blankon-master-keyring.gpg untuk menandatangani keyring
+    arsip dan keyring cdimage.
+  * Update blankon-archive-keyring.gpg dengan yang telah ditandatangani
+    oleh BlankOn master keyring.
+  * debian/control: Update description merujuk ke proyek BlankOn daripada 
+    BlankOn 2.
+
+ -- Andy Apdhani <imtheface@ubuntu.com>  Thu, 19 Feb 2009 19:04:44 +0700
+
+blankon-keyring (2008.01.14) lontara; urgency=low
+
+  * Import to Lontara
+
+ -- Andy Apdhani <imtheface@ubuntu.com>  Mon, 14 Jan 2008 23:26:07 +0700
+
+blankon-keyring (2007.11.08) konde; urgency=low
+
+  * Hapus kembali pubkey ubuntu dari blankon-archive-keyring.gpg
+
+ -- Andy Apdhani <imtheface@ubuntu.com>  Thu, 08 Nov 2007 13:29:20 +0700
+
+blankon-keyring (2007.11.07) konde; urgency=low
+
+  * Tambah pubkey pabrik CD & masukkan pula ubuntu-keyring ke BlankOn
+
+ -- Andy Apdhani <imtheface@ubuntu.com>  Wed, 07 Nov 2007 08:58:47 +0700
+
+blankon-keyring (2007.10.01-2) konde; urgency=low
+ 
+  * debian/control: tambah Priority: important
+
+ -- Andy Apdhani <imtheface@ubuntu.com>  Fri,  5 Oct 2007 01:26:01 +0700
+
+blankon-keyring (2007.10.01-1) konde; urgency=low
+
+  * s/ubuntu/blankon
+
+ -- Mohammad DAMT <mdamt@mnots.eu>  Mon,  1 Oct 2007 15:40:21 +0300
+
+ubuntu-keyring (2005.01.12.1) hoary; urgency=low
+
+  * udeb create was not binary all
+
+ -- Michael Vogt <mvo@debian.org>  Wed, 12 Jan 2005 16:06:23 +0100
+
+ubuntu-keyring (2005.01.12) hoary; urgency=low
+
+  * use absolute path for apt-key
+  * and make it really depend on gnupg
+
+ -- Michael Vogt <mvo@debian.org>  Wed, 12 Jan 2005 15:29:31 +0100
+
+ubuntu-keyring (2005.01.11) hoary; urgency=low
+
+  * applied patch to create a ubuntu-keyring udeb for the installer
+    (thanks to Colin)
+  * depend on gnupg
+  * call apt-key update (if apt-key is available)
+
+ -- Michael Vogt <mvo@debian.org>  Fri,  7 Jan 2005 14:28:29 +0100
+
+ubuntu-keyring (2005.01.04) hoary; urgency=low
+
+  * Add 1024D/FBB75451 Ubuntu CD Image Automatic Signing Key
+    <cdimage@ubuntu.com> to ubuntu-archive-keyring.
+
+ -- Colin Watson <cjwatson@canonical.com>  Wed,  5 Jan 2005 00:04:09 +0000
+
+ubuntu-keyring (2004.12.16) hoary; urgency=low
+
+  * Initial release with the Ubuntu Archive Signing Key in
+    the ubuntu-archive-keyring
+
+ -- Michael Vogt <mvo@debian.org>  Fri,  3 Dec 2004 22:10:41 +0100
+

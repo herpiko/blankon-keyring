@@ -1,0 +1,11 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+6f28d5f4be8606f2330f5e054ce028e6  keyrings/blankon-archive-keyring.gpg
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkmdR3cACgkQP53qO6VBlYgh6QCeL+QBlU3OiEu+XaEQzDcQ6ABi
+3x4AnRVkv4/q1tpKnfS6D3dubUWTeQ1M
+=9+VJ
+-----END PGP SIGNATURE-----
