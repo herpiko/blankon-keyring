@@ -1,3 +1,9 @@
+blankon-keyring (2014.03.03) tambora; urgency=low
+
+  * Inpor to Tambora  
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Mon, 03 Mar 2014 18:36:41 +0700
+
 blankon-keyring (2013.09.12) suroboyo; urgency=low
 
   * Added active-keys/blankon-archive-keyring.gpg 
