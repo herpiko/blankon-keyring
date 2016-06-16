@@ -1,3 +1,9 @@
+blankon-keyring (2016.06.16-1) tambora; urgency=medium
+
+  * Fix gpg  
+
+ -- dotovr <dotovr@preko>  Thu, 16 Jun 2016 20:38:10 +0700
+
 blankon-keyring (2016.06.16) tambora; urgency=medium
 
   * Use new keyring
