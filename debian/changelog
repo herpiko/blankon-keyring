@@ -1,3 +1,11 @@
+blankon-keyring (2016.06.16-2) tambora; urgency=medium
+
+  * Drop active-keyrings
+    - Fix script postinst
+    - Fix script rule
+
+ -- dotovr <dotovr@preko>  Thu, 16 Jun 2016 23:24:49 +0700
+
 blankon-keyring (2016.06.16-1) tambora; urgency=medium
 
   * Fix gpg  
