@@ -1,3 +1,9 @@
+blankon-keyring (2016.06.16) tambora; urgency=medium
+
+  * Use new keyring
+
+ -- dotovr <dotovr@preko>  Thu, 16 Jun 2016 11:56:33 +0700
+
 blankon-keyring (2015.10.02) tambora; urgency=medium
 
   * Rebuild 
