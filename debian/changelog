@@ -1,3 +1,10 @@
+blankon-keyring (2016.06.16-3) tambora; urgency=medium
+
+  * Fix rules
+  * Make sure postinst to add keyring
+
+ -- dotovr <dotovr@preko>  Sat, 18 Jun 2016 18:51:25 +0700
+
 blankon-keyring (2016.06.16-2) tambora; urgency=medium
 
   * Drop active-keyrings
