@@ -14,6 +14,18 @@ if ! test -f $KEYRING; then
      touch $KEYRING
 fi
 
+ACTIVEDIR="/etc/apt/trusted.gpg.d"
+ACTIVE="${ACTIVEDIR}/blankon-archive-keyring.gpg"
+
+if ! test -d $ACTIVEDIR; then
+     mkdir -m 755 -p $ACTIVEDIR
+fi
+
+if ! test -f $ACTIVE; then
+     cp /etc/apt/trusted.gpg.d/blankon-archive-keyring.gpg $ACTIVE
+     touch $ACTIVE
+fi
+
 # sensible default permissions if there is no keyring yet
 # (gpg will use 0600 otherwise and that will break release-upgrades later)
 ETC_KEYRING="/etc/apt/trusted.gpg"
@@ -27,11 +39,6 @@ fi
 # because it uses the trusted.gpg keyring to verify the signature (as user)
 if dpkg --compare-versions "$2" lt-nl "2010.+09.30"; then
     chmod 0644 $ETC_KEYRING
-fi
-
-# add keyring blankon
-if [ -x /usr/bin/apt-key ]; then
-    /usr/bin/apt-key add /usr/share/keyrings/blankon-archive-keyring.gpg
 fi
 
 # make sure apt knows about the new keys

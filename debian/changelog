@@ -1,3 +1,9 @@
+blankon-keyring (2016.06.16-4) tamborax; urgency=medium
+
+  * Rebase to BlankOn Keyrong Old 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 22 Jun 2016 12:07:32 +0700
+
 blankon-keyring (2016.06.16-3) tambora; urgency=medium
 
   * Fix rules
