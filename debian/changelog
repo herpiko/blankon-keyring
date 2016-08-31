@@ -1,6 +1,15 @@
+blankon-keyring (2016.08.31) tambora; urgency=medium
+
+  * Combine public key old and new
+  * Debian/control:
+    - Add MA: foreign
+    - Change depends dan recommends
+
+ -- Mahyuddin <yudi.al@gmail.com>  Wed, 31 Aug 2016 11:29:15 +0700
+
 blankon-keyring (2016.06.16-4) tambora; urgency=medium
 
-  * Rebase to BlankOn Keyrong Old 
+  * Rebase to BlankOn Keyrong Old
 
  -- Rahman Yusri Aftian <aftian@di.blankon.in>  Wed, 22 Jun 2016 12:07:32 +0700
 
@@ -21,7 +30,7 @@ blankon-keyring (2016.06.16-2) tambora; urgency=medium
 
 blankon-keyring (2016.06.16-1) tambora; urgency=medium
 
-  * Fix gpg  
+  * Fix gpg
 
  -- dotovr <dotovr@preko>  Thu, 16 Jun 2016 20:38:10 +0700
 
@@ -33,19 +42,19 @@ blankon-keyring (2016.06.16) tambora; urgency=medium
 
 blankon-keyring (2015.10.02) tambora; urgency=medium
 
-  * Rebuild 
+  * Rebuild
 
  -- mhy <dotovr@mhy>  Fri, 02 Oct 2015 18:33:45 +0700
 
 blankon-keyring (2014.03.03) tambora; urgency=low
 
-  * Inpor to Tambora  
+  * Inpor to Tambora
 
  -- Rahman Yusri Aftian <aftian@di.blankon.in>  Mon, 03 Mar 2014 18:36:41 +0700
 
 blankon-keyring (2013.09.12) suroboyo; urgency=low
 
-  * Added active-keys/blankon-archive-keyring.gpg 
+  * Added active-keys/blankon-archive-keyring.gpg
   * Refresh debian/rules
   * Upstream remove 'apt-key update' from APT. And now blankon-keyring move to
     directory /etc/apt/trusted.gpg.d/ for sync with apt.
@@ -62,7 +71,7 @@ blankon-keyring (2011.11.02) rote; urgency=low
 blankon-keyring (2011.06.19) pattimura; urgency=low
 
   * debian/rules
-    - Drop ubuntu-keyring for deppends 
+    - Drop ubuntu-keyring for deppends
 
  -- aftian <aftian@di.blankon.in>  Sun, 19 Jun 2011 16:36:09 +0700
 
@@ -80,7 +89,7 @@ blankon-keyring (2009.02.19) nanggar; urgency=low
     arsip dan keyring cdimage.
   * Update blankon-archive-keyring.gpg dengan yang telah ditandatangani
     oleh BlankOn master keyring.
-  * debian/control: Update description merujuk ke proyek BlankOn daripada 
+  * debian/control: Update description merujuk ke proyek BlankOn daripada
     BlankOn 2.
 
  -- Andy Apdhani <imtheface@ubuntu.com>  Thu, 19 Feb 2009 19:04:44 +0700
@@ -104,7 +113,7 @@ blankon-keyring (2007.11.07) konde; urgency=low
  -- Andy Apdhani <imtheface@ubuntu.com>  Wed, 07 Nov 2007 08:58:47 +0700
 
 blankon-keyring (2007.10.01-2) konde; urgency=low
- 
+
   * debian/control: tambah Priority: important
 
  -- Andy Apdhani <imtheface@ubuntu.com>  Fri,  5 Oct 2007 01:26:01 +0700

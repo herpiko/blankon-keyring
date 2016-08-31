@@ -8,7 +8,9 @@ Standards-Version: 3.8.3
 Package: blankon-keyring
 Priority: important
 Architecture: all
-Depends: gpgv, gnupg (>= 1.0.6-4)
+Multi-Arch: foreign
+Depends: gnupg | gnupg2
+Recommends: gpgv
 Description: GnuPG keys of the BlankOn archive
  The BlankOn project digitally signs its Release files. This package
  contains the archive keys used for that.

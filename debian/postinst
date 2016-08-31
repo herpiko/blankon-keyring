@@ -14,18 +14,6 @@ if ! test -f $KEYRING; then
      touch $KEYRING
 fi
 
-ACTIVEDIR="/etc/apt/trusted.gpg.d"
-ACTIVE="${ACTIVEDIR}/blankon-archive-keyring.gpg"
-
-if ! test -d $ACTIVEDIR; then
-     mkdir -m 755 -p $ACTIVEDIR
-fi
-
-if ! test -f $ACTIVE; then
-     cp /etc/apt/trusted.gpg.d/blankon-archive-keyring.gpg $ACTIVE
-     touch $ACTIVE
-fi
-
 # sensible default permissions if there is no keyring yet
 # (gpg will use 0600 otherwise and that will break release-upgrades later)
 ETC_KEYRING="/etc/apt/trusted.gpg"
