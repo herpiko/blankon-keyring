@@ -1,3 +1,9 @@
+blankon-keyring (2016.09.04-02) tambora; urgency=medium
+
+  * Rebuild
+
+ -- Mahyuddin <yudi.al@gmail.com>  Mon, 05 Sep 2016 00:02:40 +0700
+
 blankon-keyring (2016.09.04-01) tambora; urgency=medium
 
   * Add apt-key update
