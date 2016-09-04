@@ -1,3 +1,9 @@
+blankon-keyring (2016.09.04) tambora; urgency=medium
+
+  * Replace apt-key update with add
+
+ -- Mahyuddin <yudi.al@gmail.com>  Sun, 04 Sep 2016 22:08:12 +0700
+
 blankon-keyring (2016.08.31) tambora; urgency=medium
 
   * Combine public key old and new

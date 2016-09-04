@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 # the keyring in /var that gets fetched by apt-key net-update
 # if it does not yet exist, copy it to avoid uneeded net copy
 KEYRINGDIR="/var/lib/apt/keyrings"
@@ -31,6 +33,5 @@ fi
 
 # make sure apt knows about the new keys
 if [ -x /usr/bin/apt-key ]; then
-    /usr/bin/apt-key update
+    /usr/bin/apt-key add /usr/share/keyrings/blankon-archive-keyring.gpg > /dev/null;
 fi
-
