@@ -1,3 +1,9 @@
+blankon-keyring (2016.09.04-04) tambora; urgency=medium
+
+  * Using data not pgp
+
+ -- Mahyuddin <yudi.al@gmail.com>  Mon, 05 Sep 2016 11:58:21 +0700
+
 blankon-keyring (2016.09.04-03) tambora; urgency=medium
 
   *  Fix postinst
