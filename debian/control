@@ -2,6 +2,7 @@ Source: blankon-keyring
 Section: misc
 Priority: optional
 Maintainer: BlankOn Developers <BlankOn@googlegroups.com>
+Uploaders: Herpiko Dwi Aguno <herpiko@gmail.com>
 XSBC-Original-Maintainer: Michael Vogt <michael.vogt@canonical.com>
 Standards-Version: 3.8.3
 
